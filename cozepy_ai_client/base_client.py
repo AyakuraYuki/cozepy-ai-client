@@ -42,8 +42,8 @@ class BaseClientMixin:
         Initialize the base client.
 
         :param api_key: Bearer token for the Coze API
-        :param api_url: Coze AI Agent/Workflow API url
-        :param project_id: Coze AI Agent/Workflow project id
+        :param api_url: Coze AI Agent API url
+        :param project_id: Coze AI Agent project id
         :param timeout: Request timeout in seconds
         :param max_retries: Maximum number of retry attempts
         :param retry_delay: Delay between retries in seconds (exponential backoff)

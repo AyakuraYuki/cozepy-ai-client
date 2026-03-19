@@ -1,7 +1,7 @@
 [project]
 name = "cozepy-ai-client"
 version = "0.1.0"
-description = "A package for interacting with the Coze Agent/Workflow created by AI Programming"
+description = "A package for interacting with the Coze Agent created by AI Programming"
 requires-python = ">=3.10"
 
 authors = [{ name = "Ayakura Yuki" }]
@@ -13,6 +13,13 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+[project.urls]
+Homepage = "https://github.com/AyakuraYuki/cozepy-ai-client"
+Documentation = "https://github.com/AyakuraYuki/cozepy-ai-client/blob/main/README.md"
+Repository = "https://github.com/AyakuraYuki/cozepy-ai-client.git"
+Issues = "https://github.com/AyakuraYuki/cozepy-ai-client/issues"
+Changelog = "https://github.com/AyakuraYuki/cozepy-ai-client/blob/main/CHANGELOG.md"
 
 dependencies = [
     "httpx[http2]>=0.28.1",
