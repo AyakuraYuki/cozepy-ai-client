@@ -15,13 +15,6 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-[project.urls]
-Homepage = "https://github.com/AyakuraYuki/cozepy-ai-client"
-Documentation = "https://github.com/AyakuraYuki/cozepy-ai-client/blob/main/README.md"
-Repository = "https://github.com/AyakuraYuki/cozepy-ai-client.git"
-Issues = "https://github.com/AyakuraYuki/cozepy-ai-client/issues"
-Changelog = "https://github.com/AyakuraYuki/cozepy-ai-client/blob/main/CHANGELOG.md"
-
 dependencies = [
     "httpx[http2]>=0.28.1",
     "pydantic>=2.12.5",
@@ -33,6 +26,13 @@ dev = [
     "pytest-asyncio>=1.3.0",
     "pytest-cov>=7.0.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/AyakuraYuki/cozepy-ai-client"
+Documentation = "https://github.com/AyakuraYuki/cozepy-ai-client/blob/main/README.md"
+Repository = "https://github.com/AyakuraYuki/cozepy-ai-client.git"
+Issues = "https://github.com/AyakuraYuki/cozepy-ai-client/issues"
+Changelog = "https://github.com/AyakuraYuki/cozepy-ai-client/blob/main/CHANGELOG.md"
 
 [build-system]
 requires = ["hatchling"]
